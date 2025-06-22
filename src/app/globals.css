@@ -1,11 +1,4 @@
-/* Tailwind's base styles: normalize.css + other resets */
-@tailwind base;
-
-/* Tailwind's component classes (like buttons, form styles) */
-@tailwind components;
-
-/* Tailwind utility classes (like px-4, flex, etc.) */
-@tailwind utilities;
+@import 'tailwindcss';
 
 /* Custom global styles (optional) */
 body {
