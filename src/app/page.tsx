@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className="text-5xl font-bold mb-6">Jam Jars</h1>
 
         <p className="text-xl mb-8">
-          Web Consultancy & Contracting — Building modern, reliable, scalable web applications.
+          Web Consultancy & Contracting Building modern, reliable, scalable web applications.
         </p>
 
         <a
