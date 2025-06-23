@@ -1,21 +1,26 @@
-import './globals.css';
-import type { Metadata } from 'next';
+import './globals.css'
+import type { Metadata } from 'next'
 
-// Define default metadata
+// Default metadata for SEO and browser tab
 export const metadata: Metadata = {
-  title: 'Jam Jars', // Browser tab
-  description: 'Web Consultancy & Contracting Services', // SEO description
-};
+  title: 'JamJars',
+  description: 'Web Consultancy & Contracting Services',
+  icons: {
+    icon: '/favicon.ico', 
+  },
+}
 
-// Layout wraps all pages
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode; // Page content goes here
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
-      <body>{children}</body> {/* Page content will render inside <body> */}
+      <head />
+      <body>
+        {children}
+      </body>
     </html>
-  );
+  )
 }
